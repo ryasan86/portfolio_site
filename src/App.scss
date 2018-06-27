@@ -1,9 +1,8 @@
-// main colors
 $primary: #1abc9c;
 $secondary: #5dade2;
 $light: #f7f5f6;
 $dark: #17202a;
-// font colors
+
 $main_font_color: #34495e;
 $light_font_color: #808b96;
 
@@ -20,6 +19,7 @@ a:visited {
   height: 100vh;
 }
 
+// main
 .wrap {
   height: 100%;
   width: 100%;
@@ -57,6 +57,7 @@ a:visited {
   }
 }
 
+// pages
 .pages {
   width: 100%;
   display: flex;
@@ -66,12 +67,19 @@ a:visited {
   }
 }
 
+// components
+.welcome {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 0 2% 0;
+}
+
 .project-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 5px;
-  border: black 1px solid;
+  padding: 2% 0 2% 0;
   .project-card {
     margin: 10px;
   }

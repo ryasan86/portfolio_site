@@ -47,11 +47,16 @@ a:visited {
   .pages .page {
     width: 85%; }
 
+.welcome {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2% 0 2% 0; }
+
 .project-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 5px;
-  border: black 1px solid; }
+  padding: 2% 0 2% 0; }
   .project-gallery .project-card {
     margin: 10px; }
