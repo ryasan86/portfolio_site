@@ -1,6 +1,7 @@
 // main colors
 $primary: #1abc9c;
 $secondary: #5dade2;
+$light: #f7f5f6;
 $dark: #17202a;
 // font colors
 $main_font_color: #34495e;
@@ -8,7 +9,7 @@ $light_font_color: #808b96;
 
 body {
   margin: 0 0;
-  background-color: #f7f5f6;
+  background-color: $light;
 }
 
 a:visited {
@@ -16,7 +17,6 @@ a:visited {
 }
 
 #root {
-  border: red 3px solid;
   height: 100vh;
 }
 
@@ -30,11 +30,16 @@ a:visited {
   color: $primary;
   width: 100%;
   height: 50px;
+  display: flex;
+  justify-content: center;
   .nav-list {
     margin: 0 0;
     display: flex;
     list-style-type: none;
     height: 100%;
+    width: 85%;
+    justify-content: flex-end;
+    border: $dark 3px solid;
     .nav-link {
       display: flex;
       width: 150px;
@@ -45,9 +50,26 @@ a:visited {
       transition: box-shadow 0.2s linear, color 0.1s linear;
       color: $primary;
       &.active {
-        box-shadow: 0 -5px 0 0 #fff inset;
-        color: #fff;
+        box-shadow: 0 -5px 0 0 $light inset;
+        color: $light;
       }
     }
+  }
+}
+
+.pages {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .page {
+    width: 85%;
+  }
+}
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  .project-card {
+    width: 25%;
   }
 }
