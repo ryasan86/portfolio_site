@@ -2,20 +2,20 @@ import React, { Component, Fragment } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import HomePage from './pages/Home/Home';
-import Contact from './pages/Contact/Contact';
+import ContactPage from './pages/Contact/Contact';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="wrap">
+      <div className="app-wrap">
         <BrowserRouter>
           <Fragment>
             <Navbar />
-            <div className="pages">
+            <div className="pages-container">
               <Switch>
-                <Route exact path="/home" component={HomePage} />
-                <Route path="/contact" component={Contact} />
+                <Route exact path="/" component={HomePage} />
+                <Route path="/contact" component={ContactPage} />
               </Switch>
             </div>
           </Fragment>
