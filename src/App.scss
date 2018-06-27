@@ -69,7 +69,10 @@ a:visited {
 .project-gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  border: black 1px solid;
   .project-card {
-    width: 25%;
+    margin: 10px;
   }
 }

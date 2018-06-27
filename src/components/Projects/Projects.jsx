@@ -31,12 +31,12 @@ export default class Projects extends Component {
   render() {
     let style;
     return (
-      <div className="project-gallery">
+      <div className="project-gallery" data-aos="fade-up">
         {projects.map(project => {
           style = {
             background: `url(${project.imageUrl})`,
-            height: '275px',
-            width: '275px'
+            height: '300px',
+            width: '300px'
           };
           return (
             <div className="project-card" key={project.title}>
