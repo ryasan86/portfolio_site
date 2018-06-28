@@ -42,21 +42,9 @@
     "description": "scss images"
   },
   {
-    "title": "Placeholder 2",
-    "imageUrl": "http://via.placeholder.com/300x300",
-    "url": "http://via.placeholder.com/300x300",
-    "description": "description here"
-  },
-  {
-    "title": "Placeholder 3",
-    "imageUrl": "http://via.placeholder.com/300x300",
-    "url": "http://via.placeholder.com/300x300",
-    "description": "description here"
-  },
-  {
-    "title": "Placeholder 4",
-    "imageUrl": "http://via.placeholder.com/300x300",
-    "url": "http://via.placeholder.com/300x300",
-    "description": "description here"
+    "title": "Markdown Previewer",
+    "imageUrl": "https://s20.postimg.cc/6h251tlbx/markdown_previewer.jpg",
+    "url": "https://codepen.io/ryasan86/pen/wXqOwG",
+    "description": "react | markedjs"
   }
 ]
