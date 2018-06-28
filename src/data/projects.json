@@ -2,7 +2,7 @@
   {
     "title": "Drum Kit",
     "imageUrl": "https://s15.postimg.cc/mj0w5wmu3/drum_machine.png",
-    "url": "https://github.com/ryasan86/drum_machine",
+    "url": "https://ryasan86.github.io/drum_machine",
     "description": "description here"
   },
   {
@@ -36,15 +36,27 @@
     "description": "description here"
   },
   {
-    "title": "Placeholder",
-    "imageUrl": "  http://via.placeholder.com/300x300",
-    "url": "  http://via.placeholder.com/300x300",
+    "title": "Placeholder 1",
+    "imageUrl": "http://via.placeholder.com/300x300",
+    "url": "http://via.placeholder.com/300x300",
     "description": "description here"
   },
   {
-    "title": "Placeholder",
-    "imageUrl": "  http://via.placeholder.com/300x300",
-    "url": "  http://via.placeholder.com/300x300",
+    "title": "Placeholder 2",
+    "imageUrl": "http://via.placeholder.com/300x300",
+    "url": "http://via.placeholder.com/300x300",
+    "description": "description here"
+  },
+  {
+    "title": "Placeholder 3",
+    "imageUrl": "http://via.placeholder.com/300x300",
+    "url": "http://via.placeholder.com/300x300",
+    "description": "description here"
+  },
+  {
+    "title": "Placeholder 4",
+    "imageUrl": "http://via.placeholder.com/300x300",
+    "url": "http://via.placeholder.com/300x300",
     "description": "description here"
   }
 ]

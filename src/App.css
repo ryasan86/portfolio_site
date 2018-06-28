@@ -15,6 +15,11 @@ a {
   a:visited {
     color: inherit; }
 
+button {
+  border-radius: 5px; }
+  button.primary {
+    background-color: #1abc9c; }
+
 #root {
   height: 100vh; }
 
@@ -62,6 +67,7 @@ a {
       grid-template-areas: 'welcome external-links' 'projects projects'; }
 
 .welcome {
+  margin: 5% 0 5% 0;
   height: 20vh;
   display: flex;
   justify-content: center;
@@ -94,7 +100,7 @@ a {
   grid-area: projects; }
   .projects .projects-gallery {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap; }
     .projects .projects-gallery .card {
       margin: 10px; }

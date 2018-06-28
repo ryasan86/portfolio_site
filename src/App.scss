@@ -1,17 +1,6 @@
 @import './_variables.scss';
+@import './_mixins.scss';
 
-@mixin flex(
-  $justify: null,
-  $align: null,
-  $flex_direction: null,
-  $flex_wrap: null
-) {
-  display: flex;
-  justify-content: #{$justify};
-  align-items: #{$align};
-  flex-direction: #{$flex_direction};
-  flex-wrap: #{$flex_wrap};
-}
 body {
   margin: 0 0;
   background-color: $light;
@@ -28,6 +17,12 @@ a {
   color: inherit;
   &:visited {
     color: inherit;
+  }
+}
+button {
+  border-radius: 5px;
+  &.primary {
+    background-color: $primary;
   }
 }
 #root {
@@ -71,6 +66,7 @@ a {
   @include flex(center);
   .page {
     width: 85%;
+
     &.home {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -82,6 +78,7 @@ a {
 }
 // components
 .welcome {
+  margin: 5% 0 5% 0;
   height: 20vh;
   @include flex(center, null, column);
   grid-area: welcome;
@@ -111,7 +108,7 @@ a {
 .projects {
   grid-area: projects;
   .projects-gallery {
-    @include flex(space-between, null, null, wrap);
+    @include flex(flex-start, null, null, wrap);
     .card {
       margin: 10px;
       .title {

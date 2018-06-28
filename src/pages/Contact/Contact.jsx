@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Button from './../../components/globals/Button';
 export default class ContactPage extends Component {
   handleClick() {
     window.open('mailto:ryansantos86@gmail.com?subject=Hey Ryan!');
@@ -11,8 +11,9 @@ export default class ContactPage extends Component {
         <h4>Drop Me a Line.</h4>
         Want to collaborate on a Project? Have a question about my work? Don't
         hesitate!
-        <br /><br/>
-        <button onClick={this.handleClick}>send email</button>
+        <br />
+        <br />
+        <Button content="send email" className="button primary" onClick={this.handleClick} />
       </div>
     );
   }
