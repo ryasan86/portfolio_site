@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import HomePage from './pages/Home/Home';
 import ContactPage from './pages/Contact/Contact';
@@ -9,17 +9,17 @@ class App extends Component {
   render() {
     return (
       <div className="app-wrap">
-        <BrowserRouter>
+        <HashRouter>
           <Fragment>
             <Navbar />
-            <div className="pages-container">
+            <div className="pages">
               <Switch>
                 <Route exact path="/" component={HomePage} />
                 <Route path="/contact" component={ContactPage} />
               </Switch>
             </div>
           </Fragment>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
   }

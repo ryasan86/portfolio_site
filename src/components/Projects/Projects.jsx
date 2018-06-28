@@ -11,7 +11,7 @@ export default class Projects extends Component {
     });
 
     return (
-      <div className="projects-container" data-aos="fade-up">
+      <div className="projects" data-aos="fade-up">
         <h3 className="projects-title">Projects</h3>
         <div className="projects-gallery">
           {PROJECTS.map(project => (

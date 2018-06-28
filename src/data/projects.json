@@ -34,5 +34,17 @@
     "imageUrl": "https://s20.postimg.cc/mo3dl243x/spotifight.jpg",
     "url": "http://spotifight.us",
     "description": "description here"
+  },
+  {
+    "title": "Placeholder",
+    "imageUrl": "  http://via.placeholder.com/300x300",
+    "url": "  http://via.placeholder.com/300x300",
+    "description": "description here"
+  },
+  {
+    "title": "Placeholder",
+    "imageUrl": "  http://via.placeholder.com/300x300",
+    "url": "  http://via.placeholder.com/300x300",
+    "description": "description here"
   }
 ]

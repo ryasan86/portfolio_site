@@ -25,27 +25,31 @@ p {
 }
 a {
   text-decoration: none;
+  color: inherit;
+  &:visited {
+    color: inherit;
+  }
 }
 #root {
   height: 100vh;
 }
 // main
 .app-wrap {
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
-.navbar-container {
-  background-color: $dark;
-  color: $primary;
+.navbar {
   width: 100%;
   height: 50px;
   @include flex(center);
+  background-color: $dark;
+  color: $primary;
   .nav-list {
     margin: 0 0;
     @include flex(flex-end);
     list-style-type: none;
-    height: 100%;
     width: 85%;
+    height: 100%;
     border: $dark 3px solid;
     .nav-link {
       @include flex(center, center);
@@ -62,38 +66,52 @@ a {
   }
 }
 // pages
-.pages-container {
+.pages {
   width: 100%;
   @include flex(center);
   .page {
     width: 85%;
+    &.home {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        'welcome external-links'
+        'projects projects';
+    }
   }
 }
 // components
 .welcome {
   height: 20vh;
   @include flex(center, null, column);
+  grid-area: welcome;
   position: relative;
   padding-bottom: 1%;
-  .title {
-    padding-top: 1%;
-  }
   .subtitle {
     padding: 0.5% 0 0.5% 0;
     color: $light_font_color;
     font-weight: 500;
     margin: 0 0;
     &.bold {
+      color: $main_font_color;
       font-weight: bold;
     }
   }
 }
-.projects-container {
-  .projects-title {
-    padding: 0 0 0 5%;
+.external-links {
+  @include flex(flex-end, center, row, null);
+  grid-area: external-links;
+  margin-bottom: 10%;
+  span {
+    margin: 5px;
+    color: $main_font_color;
+    font-size: 1.5em;
   }
+}
+.projects {
+  grid-area: projects;
   .projects-gallery {
-    @include flex(center, null, null, wrap);
+    @include flex(space-between, null, null, wrap);
     .card {
       margin: 10px;
       .title {

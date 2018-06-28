@@ -6,7 +6,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <div className="navbar-container" data-aos="slide-left">
+      <div className="navbar" data-aos="slide-left">
         <ul className="nav-list">
           <li>
             <NavLink exact to="/" className="nav-link" activeClassName="active">Home</NavLink>
