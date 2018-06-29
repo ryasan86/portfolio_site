@@ -151,6 +151,9 @@ button {
     @include flex(flex-start, null, null, wrap);
     .card {
       margin: 10px;
+      .image-wrapper {
+        position: relative;
+      }
       .title {
         padding: 2% 0 2% 0;
         color: $main_font_color;
@@ -161,5 +164,23 @@ button {
         font-size: 0.9em;
       }
     }
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  .title {
+    color: $light !important;
+    text-decoration: underline;
   }
 }
