@@ -20,9 +20,8 @@ a {
   }
 }
 
-// custom
-.primary {
-  background-color: $primary;
+ul {
+  list-style-type: none;
 }
 
 button {
@@ -34,7 +33,7 @@ button {
   box-shadow: 0 3px 5px 0 darken($primary, 40%);
   &:active {
     transform: translateY(4px);
-    background-color: darken($primary, 15%);
+    background-color: darken($primary, 5%);
     box-shadow: none;
   }
 }
@@ -42,6 +41,12 @@ button {
 #root {
   height: 100vh;
 }
+
+// custom
+.primary {
+  background-color: $primary;
+}
+
 // main
 .app-wrap {
   width: 100%;
@@ -56,7 +61,6 @@ button {
   .nav-list {
     margin: 0 0;
     @include flex(flex-end);
-    list-style-type: none;
     width: 85%;
     height: 100%;
     border: $dark 3px solid;
@@ -80,13 +84,15 @@ button {
   @include flex(center);
   .page {
     width: 85%;
-
     &.home {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 2fr;
       grid-template-areas:
         'welcome external-links'
         'projects projects';
+    }
+    &.contact {
+      width: 60% !important;
     }
   }
   .angle-edge {
@@ -99,25 +105,36 @@ button {
     clip-path: polygon(100% 57%, 100% 84%, 0 100%, 25% 0);
   }
 }
+
 // components
-.welcome {
-  margin: 5% 0 5% 0;
-  height: 20vh;
-  @include flex(center, null, column);
-  grid-area: welcome;
-  position: relative;
-  padding-bottom: 1%;
-  .subtitle {
-    padding: 0.5% 0 0.5% 0;
-    color: $light_font_color;
-    font-weight: 500;
-    margin: 0 0;
-    &.bold {
-      color: $main_font_color;
-      font-weight: bold;
+@media only screen and (min-width: 600px) {
+  .welcome {
+    grid-area: welcome;
+    margin: 5% 0 5% 0;
+    height: 250px;
+    width: 500px;
+    @include flex(center, null, column);
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 0 100%, 70% 0);
+    clip-path: polygon(0 0, 0 100%, 70% 0);
+    background-color: $dark;
+    .inner {
+      margin-left: 2%;
+      margin-bottom: 20%;
+      .subtitle {
+        padding: 0.5% 0 0.5% 0;
+        color: white;
+        font-weight: 500;
+        margin: 0 0;
+        &.bold {
+          color: white;
+          font-weight: bold;
+        }
+      }
     }
   }
 }
+
 .external-links {
   @include flex(flex-end, center, row, null);
   grid-area: external-links;
