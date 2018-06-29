@@ -13,7 +13,7 @@ export default class ContactPage extends Component {
         hesitate!
         <br />
         <br />
-        <Button content="send email" className="button primary" onClick={this.handleClick} />
+        <Button content="send email" className="button primary" handleClick={this.handleClick} />
       </div>
     );
   }

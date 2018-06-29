@@ -19,12 +19,26 @@ a {
     color: inherit;
   }
 }
+
+// custom
+.primary {
+  background-color: $primary;
+}
+
 button {
+  width: 200px;
+  height: 50px;
+  border: none;
   border-radius: 5px;
-  &.primary {
-    background-color: $primary;
+  color: $light;
+  box-shadow: 0 3px 5px 0 darken($primary, 40%);
+  &:active {
+    transform: translateY(4px);
+    background-color: darken($primary, 15%);
+    box-shadow: none;
   }
 }
+
 #root {
   height: 100vh;
 }
@@ -75,6 +89,15 @@ button {
         'projects projects';
     }
   }
+  .angle-edge {
+    width: 100%;
+    height: 100%;
+    background-color: darken($light, 3%);
+    position: fixed;
+    z-index: -1;
+    -webkit-clip-path: polygon(100% 57%, 100% 84%, 0 100%, 25% 0);
+    clip-path: polygon(100% 57%, 100% 84%, 0 100%, 25% 0);
+  }
 }
 // components
 .welcome {
@@ -122,14 +145,4 @@ button {
       }
     }
   }
-}
-
-.angle-edge {
-  width: 100%;
-  height: 100%;
-  background-color: darken($light, 3%);
-  position: fixed;
-  z-index: -1;
-  -webkit-clip-path: polygon(100% 57%, 100% 84%, 0 100%, 25% 0);
-  clip-path: polygon(100% 57%, 100% 84%, 0 100%, 25% 0);
 }
