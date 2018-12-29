@@ -1,5 +1,11 @@
 [
   {
+    "title": "Tic Tac Toe",
+    "imageUrl": "https://i.postimg.cc/7LdWjggx/tictactoe.jpg",
+    "url": "https://ryasan86.github.io/tic_tac_toe",
+    "description": "react"
+  },
+  {
     "title": "Drum Kit",
     "imageUrl": "https://s15.postimg.cc/mj0w5wmu3/drum_machine.png",
     "url": "https://ryasan86.github.io/drum_machine",
@@ -9,31 +15,31 @@
     "title": "PokeDex",
     "imageUrl": "https://s20.postimg.cc/hbej6k5t9/pokemon.jpg",
     "url": "http://138.68.245.105",
-    "description": "react | redux | nodejs |express"
+    "description": "react | redux | nodejs | express"
   },
   {
     "title": "Snake",
-    "imageUrl": "https://s20.postimg.cc/ihij5nc71/snake.png",
-    "url": "https://ryasan86.github.io/react_snake",
+    "imageUrl": "https://s15.postimg.cc/v7806ripn/snake.png",
+    "url": "https://ryasan86.github.io/snake",
     "description": "react"
   },
   {
     "title": "NotReddit",
-    "imageUrl": "https://s20.postimg.cc/jeoyepy1p/notreddit.jpg",
+    "imageUrl": "https://s20.postimg.cc/4bw6qfxot/notreddit.jpg",
     "url": "http://138.68.245.105:3000",
-    "description": "react | redux | nodejs | sql"
-  },
-  {
-    "title": "Twitch Clone",
-    "imageUrl": "https://s20.postimg.cc/5majishh9/twitch.jpg",
-    "url": "https://twitch-clone-search.firebaseapp.com",
-    "description": "angular2+ | rxjs"
+    "description": "react | redux | nodejs | sql | firebase"
   },
   {
     "title": "SpotiFight",
     "imageUrl": "https://s20.postimg.cc/mo3dl243x/spotifight.jpg",
     "url": "http://spotifight.us",
     "description": "react | redux | passportjs | sql"
+  },
+  {
+    "title": "Twitch Clone",
+    "imageUrl": "https://s20.postimg.cc/5majishh9/twitch.jpg",
+    "url": "https://ryasan86.github.io/twitch",
+    "description": "angular2+ | rxjs"
   },
   {
     "title": "Koala",
@@ -46,5 +52,11 @@
     "imageUrl": "https://s20.postimg.cc/6h251tlbx/markdown_previewer.jpg",
     "url": "https://codepen.io/ryasan86/pen/wXqOwG",
     "description": "react | markedjs"
+  },
+  {
+    "title": "Nintendo Switch",
+    "imageUrl": "    https://s20.postimg.cc/owhndenbx/nintendo_switch.png",
+    "url": "https://codepen.io/ryasan86/pen/zaVXgz",
+    "description": "scss images | animation | pug"
   }
 ]
