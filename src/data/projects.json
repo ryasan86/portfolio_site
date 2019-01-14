@@ -1,4 +1,17 @@
 [
+  
+  {
+    "title": "Simon Says",
+    "imageUrl": "https://i.postimg.cc/BQr02vHg/simon.jpg",
+    "url": "https://ryasan86.github.io/simon",
+    "description": "react | redux"
+  },
+  {
+    "title": "Masonry CSS Grid",
+    "imageUrl": "https://i.postimg.cc/2yZvkTDf/masonry.jpg",
+    "url": "https://ryasan86.github.io/masonry",
+    "description": "react | css grid"
+  },
   {
     "title": "Tic Tac Toe",
     "imageUrl": "https://i.postimg.cc/7LdWjggx/tictactoe.jpg",
@@ -18,12 +31,6 @@
     "description": "react | redux | nodejs | express"
   },
   {
-    "title": "Snake",
-    "imageUrl": "https://s15.postimg.cc/v7806ripn/snake.png",
-    "url": "https://ryasan86.github.io/snake",
-    "description": "react"
-  },
-  {
     "title": "NotReddit",
     "imageUrl": "https://s20.postimg.cc/4bw6qfxot/notreddit.jpg",
     "url": "http://138.68.245.105:3000",
@@ -36,16 +43,16 @@
     "description": "react | redux | passportjs | sql"
   },
   {
+    "title": "Snake",
+    "imageUrl": "https://s15.postimg.cc/v7806ripn/snake.png",
+    "url": "https://ryasan86.github.io/snake",
+    "description": "react"
+  },
+  {
     "title": "Twitch Clone",
     "imageUrl": "https://s20.postimg.cc/5majishh9/twitch.jpg",
     "url": "https://ryasan86.github.io/twitch",
     "description": "angular2+ | rxjs"
-  },
-  {
-    "title": "Koala",
-    "imageUrl": "https://s20.postimg.cc/5sxvwvc2l/koala.jpg",
-    "url": "https://codepen.io/ryasan86/pen/MXzdQw?editors=1100",
-    "description": "scss images | pug"
   },
   {
     "title": "Markdown Previewer",
