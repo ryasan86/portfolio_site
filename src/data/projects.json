@@ -1,5 +1,4 @@
 [
-  
   {
     "title": "Simon Says",
     "imageUrl": "https://i.postimg.cc/BQr02vHg/simon.jpg",
@@ -7,10 +6,16 @@
     "description": "react | redux"
   },
   {
-    "title": "Masonry CSS Grid",
+    "title": "Masonry Tiles",
     "imageUrl": "https://i.postimg.cc/2yZvkTDf/masonry.jpg",
     "url": "https://ryasan86.github.io/masonry",
-    "description": "react | css grid"
+    "description": "react"
+  },
+  {
+    "title": "Street Fighter Selection",
+    "imageUrl": "https://i.postimg.cc/13NbQ4T8/street-fighter.jpg",
+    "url": "https://ryasan86.github.io/street_fighter_selection",
+    "description": "react"
   },
   {
     "title": "Tic Tac Toe",
@@ -22,7 +27,7 @@
     "title": "Drum Kit",
     "imageUrl": "https://s15.postimg.cc/mj0w5wmu3/drum_machine.png",
     "url": "https://ryasan86.github.io/drum_machine",
-    "description": "react | css grid"
+    "description": "react"
   },
   {
     "title": "PokeDex",
@@ -64,6 +69,6 @@
     "title": "Nintendo Switch",
     "imageUrl": "    https://s20.postimg.cc/owhndenbx/nintendo_switch.png",
     "url": "https://codepen.io/ryasan86/pen/zaVXgz",
-    "description": "scss images | animation | pug"
+    "description": "scss images | pug"
   }
 ]
