@@ -1,5 +1,11 @@
 [
   {
+    "title": "Restaurant Menu",
+    "imageUrl": "https://i.postimg.cc/pdyLQcDF/restaurant.jpg",
+    "url": "react | styled components",
+    "description": "react | styled components"
+  },
+  {
     "title": "Simon Says",
     "imageUrl": "https://i.postimg.cc/BQr02vHg/simon.jpg",
     "url": "https://ryasan86.github.io/simon",
@@ -15,18 +21,18 @@
     "title": "Street Fighter Selection",
     "imageUrl": "https://i.postimg.cc/13NbQ4T8/street-fighter.jpg",
     "url": "https://ryasan86.github.io/street_fighter_selection",
+    "description": "react | styled components"
+  },
+  {
+    "title": "Drum Kit",
+    "imageUrl": "https://s15.postimg.cc/mj0w5wmu3/drum_machine.png",
+    "url": "https://ryasan86.github.io/drum_machine",
     "description": "react"
   },
   {
     "title": "Tic Tac Toe",
     "imageUrl": "https://i.postimg.cc/7LdWjggx/tictactoe.jpg",
     "url": "https://ryasan86.github.io/tic_tac_toe",
-    "description": "react"
-  },
-  {
-    "title": "Drum Kit",
-    "imageUrl": "https://s15.postimg.cc/mj0w5wmu3/drum_machine.png",
-    "url": "https://ryasan86.github.io/drum_machine",
     "description": "react"
   },
   {
