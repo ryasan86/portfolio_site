@@ -17,10 +17,10 @@ class App extends Component {
                 <Route exact path="/" component={HomePage} />
                 <Route path="/contact" component={ContactPage} />
               </Switch>
-              <div className="angle-edge" />
             </div>
           </Fragment>
         </HashRouter>
+        <div className="bg" />
       </div>
     );
   }
